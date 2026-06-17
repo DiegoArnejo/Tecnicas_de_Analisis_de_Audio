@@ -8,7 +8,7 @@ import soundfile as sf
 from IPython.display import Audio
 
 # Señal resampleada
-audio, sr = sf.read('C:/Users/diego/Downloads/output_16bit.wav')
+audio, sr = sf.read('output_16bit.wav')
 print('\nVector de la Señal Segmentada', audio)
 print('Muestra del medio:', audio[50000:50010])
 print('Largo array:', len(audio))
