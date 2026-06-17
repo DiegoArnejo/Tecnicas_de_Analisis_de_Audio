@@ -19,7 +19,7 @@ plt.plot(audio)
 plt.show()
 
 # Señal original
-audio_original, sr_original = sf.read('C:/Instituto Beltran/AnalisisTextos.mp3')
+audio_original, sr_original = sf.read('AnalisisTextos.mp3')
 print('Frecuencia de Muestreo original:', sr_original)
 print('Duración original:', len(audio_original)/sr_original)
 print(' ')
